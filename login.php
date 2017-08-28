@@ -43,7 +43,7 @@ require_once('header.php');
 <div class="container">
     <div class="jumbotron">
         <div class="container">
-            <h1>Task Planner <i class="fa fa-clock-o"></i></h1>
+            <h1 onclick="location.href='index.php';">Task Planner <i class="glyphicon glyphicon-edit"></i></h1>
             <p>Not a user yet?</>
             <hr>
             <button onclick="window.location.href='signUp.php'" class="btn btn-primary">Sign Up</button>
@@ -57,7 +57,7 @@ require_once('header.php');
         ?>
 
         <div class="row">
-            <div class="col-md-6 col-md-offset-3" id="center1">
+            <div class="col-md-6" id="center1">
                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" required>
                     <div class="form-group">
                         <label for="Username">Username</label>
