@@ -29,4 +29,24 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
     </div>
 
     <?php
+} else {
+    // We have a valid session. Show the user's home page
+
+    // Show the navigation menu
+    $page_name = "Home";
+    require_once('navMenu.php');
+
+    // Database connection variables
+    require_once('connection.php');
+
+    // Connect to the database
+    $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
+    $unconfirmed = false;
+
+    mysqli_close($dbc);
 }
+
+?>
+
+
