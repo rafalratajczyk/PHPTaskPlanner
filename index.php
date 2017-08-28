@@ -14,7 +14,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
             <h1>Task Planner <i class="glyphicon glyphicon-edit"></i></h1>
             <h2 style="color:grey;">This is a helpful tool, where you can write tasks to do.</h2>
             <hr>
-            <button onclick="window.location.href='signup.php'" class="btn btn-primary">Sign Up</button>
+            <button onclick="window.location.href='signUp.php'" class="btn btn-primary">Sign Up</button>
             <button onclick="window.location.href='login.php'" class="btn btn-primary">Login</button>
         </div>
     </div>
