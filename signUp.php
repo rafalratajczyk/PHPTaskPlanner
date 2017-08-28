@@ -9,9 +9,8 @@ require_once('header.php');
 <div class="container">
     <div class="jumbotron">
         <div class="container">
-            <h1 onclick="location.href='index.php';" style="cursor:pointer;">Task Planner<i class="glyphicon glyphicon-edit"></i></h1>
+            <h1 onclick="location.href='index.php';" style="cursor:pointer;">Task Planner <i class="glyphicon glyphicon-edit"></i></h1>
             <h3 style="color:grey;">This is a helpful tool, where you can write tasks to do.</h3>
-            <hr>
         </div>
     </div>
 
@@ -55,7 +54,7 @@ require_once('header.php');
     ?>
 
     <div class="row">
-        <div class="col-md-6 col-md-offset-3" id="center">
+        <div class="col-md-6" id="center">
             <p>Please select a username and password to sign up to Task Planner.</p>
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" required>
                 <div class="form-group">
