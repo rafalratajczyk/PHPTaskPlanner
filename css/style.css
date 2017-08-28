@@ -1,0 +1,20 @@
+.jumbotron {
+    text-align: center;
+    background-color: #EEE;
+    color: black;
+}
+
+.jumbotron h1 {
+    font-size: 6rem;
+}
+
+.welcome-2 img {
+    width: 80%;
+    max-height: 550px;
+    margin: 10px auto;
+}
+
+.welcome-2 {
+    text-align: center;
+    padding-bottom: 25px;
+}
